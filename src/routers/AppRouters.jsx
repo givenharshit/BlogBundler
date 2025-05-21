@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import { AWTAccumulator } from '../pages/AWTAccumulator';
-import { AWTCounter } from '../Pages/AWTCounter';
+import { AWTCounter } from '../pages/AWTCounter';
 import Developer from '../pages/Developer';
 
 
