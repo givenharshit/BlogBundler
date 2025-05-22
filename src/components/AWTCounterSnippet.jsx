@@ -47,7 +47,7 @@ public class AWTCounter extends Frame implements ActionListener {
 
 export const AWTCounterSnippet = () => {
     return (
-        <div className="bg-gray-900 text-white p-6 max-w-4xl mx-auto">
+        <div className="bg-gray-900 text-white p-6 max-w-6xl mx-auto">
             <h1 className="text-2xl font-bold mb-4 text-white">AWT Counter - Java Code</h1>
             <CodeSnippet code={sampleCode} language="java" />
         </div>
