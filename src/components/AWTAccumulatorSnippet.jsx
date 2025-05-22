@@ -60,7 +60,7 @@ public class AWTAccumulator extends Frame implements ActionListener {
 export const AWTAccumulatorSnippet = () => {
     return (
         <div className="p-6 max-w-6xl mx-auto">
-            <h1 className="text-2xl font-bold mb-4">Code Example with Scrolling</h1>
+            <h1 className="text-2xl font-bold mb-4">AWT Accumulator - Java Code</h1>
             <CodeSnippet code={sampleCode} language="javascript" />
         </div>
     );
