@@ -1,6 +1,6 @@
 import CodeSnippet from "../utils/CodeSnippet";
 
-const sampleCode = `
+const sampleCode = [`
 import java.awt.*;
 import java.awt.event.*;
 
@@ -55,7 +55,7 @@ public class AWTAccumulator extends Frame implements ActionListener {
         new AWTAccumulator();
     }
 }
-`;
+`];
 
 export const AWTAccumulatorSnippet = () => {
     return (

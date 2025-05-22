@@ -20,6 +20,12 @@ const Home = () => {
                         >
                             AWT Accumulator
                         </Link>
+                        <Link
+                            to="/filehandling"
+                            className="px-6 py-3 rounded bg-blue-600 text-white hover:bg-blue-700 transition"
+                        >
+                            File Handling
+                        </Link>
                     </nav>
                 </div>
 

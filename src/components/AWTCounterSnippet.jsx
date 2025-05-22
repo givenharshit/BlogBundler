@@ -1,6 +1,6 @@
 import CodeSnippet from "../utils/CodeSnippet";
 
-const sampleCode = `
+const sampleCode = [`
 import java.awt.*;
 import java.awt.event.*;
 
@@ -43,7 +43,7 @@ public class AWTCounter extends Frame implements ActionListener {
         new AWTCounter();
     }
 }
-`;
+`];
 
 export const AWTCounterSnippet = () => {
     return (

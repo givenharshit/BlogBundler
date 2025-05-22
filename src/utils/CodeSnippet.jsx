@@ -28,22 +28,26 @@ const CodeSnippet = ({ code, language = "javascript" }) => {
       </button>
 
       {/* Scrollable syntax-highlighted code */}
-      <div className="max-h-[600px] overflow-auto rounded-xl">
-        <SyntaxHighlighter
-          language={language}
-          style={oneDark}
-          customStyle={{
-            margin: 0,
-            padding: "1rem",
-            minWidth: "100%",
-            fontWeight: 600,
-            fontSize: "1.2em"
-          }}
-          wrapLines={true}
-          wrapLongLines={true}
-        >
-          {code}
-        </SyntaxHighlighter>
+      <div className="flex flex-col gap-10">
+        {code.map((c) =>
+          <div className=" max-h-[600px] overflow-auto rounded-xl">
+            <SyntaxHighlighter
+              language={language}
+              style={oneDark}
+              customStyle={{
+                margin: 0,
+                padding: "1rem",
+                minWidth: "100%",
+                fontWeight: 600,
+                fontSize: "1.2em"
+              }}
+              wrapLines={true}
+              wrapLongLines={true}
+            >
+              {c}
+            </SyntaxHighlighter>
+          </div>
+        )}
       </div>
     </div>
   );
